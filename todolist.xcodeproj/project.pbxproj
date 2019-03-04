@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4273B83222D562D00AB7394 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4273B82222D562D00AB7394 /* LoginViewController.swift */; };
+		F4273B85222D58B000AB7394 /* NavigationalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4273B84222D58B000AB7394 /* NavigationalController.swift */; };
+		F4273B87222D5C7E00AB7394 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4273B86222D5C7E00AB7394 /* FirstViewController.swift */; };
 		F4CE4587222BF49400438704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE4586222BF49400438704 /* AppDelegate.swift */; };
 		F4CE4589222BF49400438704 /* TodolistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE4588222BF49400438704 /* TodolistViewController.swift */; };
 		F4CE458C222BF49400438704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CE458A222BF49400438704 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4273B82222D562D00AB7394 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4273B84222D58B000AB7394 /* NavigationalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationalController.swift; sourceTree = "<group>"; };
+		F4273B86222D5C7E00AB7394 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		F4CE4583222BF49400438704 /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CE4586222BF49400438704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4CE4588222BF49400438704 /* TodolistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				F4CE458D222BF49A00438704 /* Assets.xcassets */,
 				F4CE458F222BF49A00438704 /* LaunchScreen.storyboard */,
 				F4CE4592222BF49A00438704 /* Info.plist */,
+				F4273B82222D562D00AB7394 /* LoginViewController.swift */,
+				F4273B84222D58B000AB7394 /* NavigationalController.swift */,
+				F4273B86222D5C7E00AB7394 /* FirstViewController.swift */,
 			);
 			path = todolist;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4273B83222D562D00AB7394 /* LoginViewController.swift in Sources */,
 				F4CE45B7222C1F4600438704 /* CellController.swift in Sources */,
+				F4273B85222D58B000AB7394 /* NavigationalController.swift in Sources */,
+				F4273B87222D5C7E00AB7394 /* FirstViewController.swift in Sources */,
 				F4CE4589222BF49400438704 /* TodolistViewController.swift in Sources */,
 				F4CE4587222BF49400438704 /* AppDelegate.swift in Sources */,
 			);

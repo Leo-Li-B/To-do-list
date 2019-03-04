@@ -11,6 +11,7 @@ import UIKit
 class CellController: UITableViewCell {
 
     @IBOutlet weak var listViewItem: UILabel!
+    @IBOutlet weak var listItemButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
